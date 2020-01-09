@@ -17,13 +17,9 @@ rhombus<T>::rhombus(std::istream &is) {
          VectProd(operator-(a1, a4), operator-(a2, a3)) == 0 &&
          ScalProd(operator-(a3, a1), operator-(a4, a2)) == 0 ) {
         std::cout << "Correct" << std::endl;
-2
-    }
-    else {
+    } else {
         std::cout << "Wrong" << std::endl;
         throw 1;
-
-
     }
 }
 template<class T>
