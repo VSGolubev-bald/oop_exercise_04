@@ -5,8 +5,8 @@
 #include "rhombus.h"
 void help () {
     std::cout << "1 - pentagon\n"
-                 "2 - rhombus\n"
-                 "3 - trapeze\n"
+                 "2 - trapeze\n"
+                 "3 - rhombus\n"
                  "4 - exit\n";
 }
 
